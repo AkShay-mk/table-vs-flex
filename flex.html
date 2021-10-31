@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        body{
+            background-image: url(back.jpg);
+        }
+    #container{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            }
+            .su{
+                border: 5px solid rgb(19, 18, 18);
+            }
+            #container2{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            }
+            #container3{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            }
+            #container4{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            color: rgb(40, 41, 37);
+            }
+            .su1{
+                background-color: rgb(182, 18, 7);
+                color: black;
+                font-size: large;
+                font-weight: bold;
+            }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="su"><img src="flex1.jpg" width="350px" height="350px"></div>
+        <div class="su"><img src="flex2.jpg" width="350px" height="350px"></div>
+        <div class="su"><img src="flex3.jpg" width="350px" height="350px"></div>
+        
+    </div>
+    <div id="container3">
+        <div class="su1">RS.299</div>
+        <div class="su1">RS.600</div>
+        <div class="su1">RS.677</div>
+        
+    </div>
+    <div id="container2">
+        <div class="su"><img src="flex4.jpg" width="350px" height="350px"></div>
+        <div class="su"><img src="flex5.jpg" width="350px" height="350px"></div>
+        <div class="su"><img src="flex6.jpg" width="350px" height="350px"></div>
+
+    </div>
+    <div id="container4">
+        <div class="su1">RS.766</div>
+        <div class="su1">RS.544</div>
+        <div class="su1">RS.344</div>
+
+    </div>
+</body>
+</html>
